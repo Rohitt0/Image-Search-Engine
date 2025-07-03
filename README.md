@@ -64,7 +64,7 @@ Simply open `index.html` in your browser to start using the app.
 
 ## 🌐 Live Demo
 
-> Coming soon! *(You can deploy it using GitHub Pages, Netlify, or Vercel)*
+https://image-search-engine-8kqj3zrdj.vercel.app
 
 ---
 
