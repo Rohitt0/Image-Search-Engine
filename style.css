@@ -1,0 +1,276 @@
+/* Background sky */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    scroll-behavior: smooth;
+}
+
+/* STAR LAYERS */
+#stars,
+#stars::after,
+#stars2,
+#stars2::after,
+#stars3,
+#stars3::after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+}
+
+/* Small stars */
+#stars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  position: absolute;
+  box-shadow:
+    570px 1567px white,
+    254px 77px white,
+    874px 1326px white,
+    812px 1893px white,
+    789px 735px white,
+    151px 1737px white,
+    1544px 564px white,
+    1416px 232px white,
+    672px 24px white,
+    157px 616px white;
+  animation: animStar 50s linear infinite;
+}
+
+#stars::after {
+  content: " ";
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  position: absolute;
+  top: 2000px;
+  box-shadow:
+    570px 1567px white,
+    254px 77px white,
+    874px 1326px white,
+    812px 1893px white,
+    789px 735px white,
+    151px 1737px white,
+    1544px 564px white,
+    1416px 232px white,
+    672px 24px white,
+    157px 616px white;
+}
+
+
+/* Medium stars */
+#stars2 {
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  background: transparent;
+  box-shadow:
+    131px 123px white,
+    1409px 1432px white,
+    637px 96px white,
+    1738px 438px white,
+    1216px 1582px white,
+    1106px 493px white,
+    1817px 1357px white,
+    580px 1307px white,
+    752px 1141px white,
+    49px 1037px white,
+    1603px 1907px white,
+    1835px 1571px white,
+    254px 232px white,
+    297px 1898px white,
+    1505px 226px white,
+    928px 1153px white,
+    1961px 1226px white,
+    1180px 1545px white,
+    331px 1892px white,
+    730px 1658px white;
+  animation: animStar 100s linear infinite;
+}
+
+#stars2::after {
+  content: " ";
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  top: 2000px;
+  background: transparent;
+  box-shadow:
+    131px 123px white,
+    1409px 1432px white,
+    637px 96px white,
+    1738px 438px white,
+    1216px 1582px white,
+    1106px 493px white,
+    1817px 1357px white,
+    580px 1307px white,
+    752px 1141px white,
+    49px 1037px white,
+    1603px 1907px white,
+    1835px 1571px white,
+    254px 232px white,
+    297px 1898px white,
+    1505px 226px white,
+    928px 1153px white,
+    1961px 1226px white,
+    1180px 1545px white,
+    331px 1892px white,
+    730px 1658px white;
+}
+
+
+/* Big stars */
+#stars3 {
+  width: 3px;
+  height: 3px;
+  position: absolute;
+  background: transparent;
+  box-shadow:
+    1104px 1831px white,
+    325px 914px white,
+    108px 56px white,
+    1982px 1602px white,
+    802px 1776px white,
+    1554px 1302px white,
+    684px 996px white,
+    1005px 1405px white,
+    1218px 107px white,
+    1430px 1125px white;
+  animation: animStar 150s linear infinite;
+}
+
+#stars3::after {
+  content: " ";
+  width: 3px;
+  height: 3px;
+  position: absolute;
+  top: 2000px;
+  background: transparent;
+  box-shadow:
+    1104px 1831px white,
+    325px 914px white,
+    108px 56px white,
+    1982px 1602px white,
+    802px 1776px white,
+    1554px 1302px white,
+    684px 996px white,
+    1005px 1405px white,
+    1218px 107px white,
+    1430px 1125px white;
+}
+
+
+/* Title styling */
+#title {
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 100px auto 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: white;
+    transform: translateY(-50%);
+}
+
+#title span {
+    background: -webkit-linear-gradient(white, #38495a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Animation */
+@keyframes animStar {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-2000px);
+    }
+}
+
+form{
+    width: 90%;
+    max-width: 600px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.15);
+    display: flex;
+    margin-left: 660px;
+    margin-top: -50px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+form input{
+    flex: 1;
+    display: flex;
+    
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #fff;
+    padding: 0 30px;
+}
+
+form button{
+    padding: 0 40px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+::placeholder{
+  font-size: 16px;
+}
+
+#show-more-btn {
+  padding: 12px 42px;
+  margin: 10px auto 100px;
+  margin-left: 870px;
+  margin-right: 870px;
+  display: flex;
+  align-items: center;
+  display: none;
+  background: transparent;
+  color: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#show-more-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+#search-result{
+  width: 80%;
+  margin: 100px auto 50px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+#search-result img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
