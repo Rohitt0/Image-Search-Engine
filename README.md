@@ -2,7 +2,8 @@
 
 A sleek and responsive **Image Search Engine** that fetches high-quality photos from **Unsplash**. Designed with a modern UI, starry sky animations, and minimal user interaction, this app delivers a beautiful way to explore images online.
 
-![Preview](preview.png) <!-- Replace with actual screenshot if available -->
+![image](https://github.com/user-attachments/assets/5e496967-8801-4ad5-803f-721184498281)
+
 
 ---
 
