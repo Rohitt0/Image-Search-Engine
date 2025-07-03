@@ -64,8 +64,7 @@ Simply open `index.html` in your browser to start using the app.
 
 ## 🌐 Live Demo
 
-https://image-search-engine-8kqj3zrdj.vercel.app
-
+https://image-search-engine-12egr42sm.vercel.app
 ---
 
 ## 📸 Credits
